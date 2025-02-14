@@ -1,6 +1,6 @@
 using GemBox.Spreadsheet.WinFormsUtilities;
 using GemBox.Spreadsheet;
-
+//Author: Noah Gabriel R. Suan CPE262 - H1
 namespace week_6_lab_activity
 {
     public partial class Form1 : Form
