@@ -150,6 +150,7 @@
             submitbtn.TabIndex = 21;
             submitbtn.Text = "Add";
             submitbtn.UseVisualStyleBackColor = true;
+            submitbtn.Click += submitbtn_Click;
             // 
             // editbtn
             // 
@@ -159,6 +160,7 @@
             editbtn.TabIndex = 20;
             editbtn.Text = "Edit";
             editbtn.UseVisualStyleBackColor = true;
+            editbtn.Click += editbtn_Click;
             // 
             // loadbtn
             // 
@@ -168,6 +170,7 @@
             loadbtn.TabIndex = 19;
             loadbtn.Text = "Open";
             loadbtn.UseVisualStyleBackColor = true;
+            loadbtn.Click += loadbtn_Click;
             // 
             // postbx
             // 
@@ -186,6 +189,7 @@
             deletebtn.TabIndex = 17;
             deletebtn.Text = "Delete";
             deletebtn.UseVisualStyleBackColor = true;
+            deletebtn.Click += deletebtn_Click;
             // 
             // clearbtn
             // 
@@ -205,6 +209,7 @@
             savebtn.TabIndex = 15;
             savebtn.Text = "Save";
             savebtn.UseVisualStyleBackColor = true;
+            savebtn.Click += savebtn_Click;
             // 
             // typetbx
             // 
